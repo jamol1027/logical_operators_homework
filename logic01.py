@@ -8,4 +8,5 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return
+    return (b>a and b<c) or (a>b and b<c)
+print(main(1,2,3))
